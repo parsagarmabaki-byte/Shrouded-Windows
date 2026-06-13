@@ -183,7 +183,7 @@ an emergency meeting** (stand on the meeting table, press `E`, then click the
 button). During a meeting:
 
 - Everyone gets a short time to discuss.
-- You then have a **60-second** voting window.
+- You then have a **120-second** voting window.
 - Click a player's banner to choose who you think the Killer is, then submit
   your vote. You can also choose to **skip**.
 - The player with the most votes is eliminated. A tie (or skip winning) means
