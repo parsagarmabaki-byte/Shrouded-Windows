@@ -3,8 +3,8 @@
 A multiplayer social-deduction game in the style of *Among Us*, written from
 scratch in C using SDL2. Up to **6 players** join the same game over a local
 network. One player is secretly the **Killer**; everyone else is an innocent
-**Crewmate**. Crewmates race to finish their tasks or vote the Killer out — the
-Killer tries to eliminate enough Crewmates to take over.
+**Crewmate**. Innocent race to finish their tasks or vote the Killer out — the
+Killer tries to eliminate enough innocent to take over.
 
 ---
 
@@ -140,10 +140,10 @@ can use **`127.0.0.1`** instead of hunting for the network IP.
 
 ### Your goal
 
-- **Crewmates** win by either completing **all of their tasks** or by **voting
+- **Innocent** win by either completing **all of their tasks** or by **voting
   out the Killer** in a meeting.
-- The **Killer** wins by eliminating Crewmates until the Killer is **equal to or
-  greater in number** than the remaining Crewmates.
+- The **Killer** wins by eliminating Innocent until the Killer is **equal to or
+  greater in number** than the remaining Innocent.
 
 ### Roles
 
@@ -151,7 +151,7 @@ At the start of each round you're shown your role:
 
 - **Innocent (Crewmate)** — walk around the map and complete your assigned
   tasks. You can call meetings and report bodies, but you cannot kill.
-- **Killer (Impostor)** — blend in, and eliminate Crewmates when no one is
+- **Killer (Impostor)** — blend in, and eliminate Innocent when no one is
   looking. After each kill there is a **30-second cooldown** before you can kill
   again.
 
@@ -170,11 +170,11 @@ At the start of each round you're shown your role:
 | `ESC` | Open the pause menu |
 | Mouse | Click buttons (kill, report, meeting, vote) |
 
-### Tasks (Crewmates)
+### Tasks (Innocent)
 
 Walk onto a task spot and press `E` to open the mini-game for that task. Finish
-it to mark the task complete. When **all Crewmates finish all their tasks**, the
-Crewmates win — so keep moving and getting them done.
+it to mark the task complete. When **all Innocent finish all their tasks**, the
+Innocent win — so keep moving and getting them done.
 
 ### Meetings and voting
 
